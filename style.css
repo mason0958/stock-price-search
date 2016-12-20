@@ -1,0 +1,33 @@
+body {
+	/*hide everything outside of body*/
+	/*overflow: hidden;*/
+}
+#pages {
+	/*make it the width of the screen*/
+	width: 200vw;
+}
+#page1, #page2 {
+	width: 100vw;
+	float: left;
+	height: 100vh;
+	position: relative;
+	transition: all 1s;
+}
+
+#arrow1, #arrow2 {
+	position: absolute;
+	top: 50%;
+	background-color: blue;
+	color: white;
+	height: 50px;
+	width: 50px;
+}
+
+#arrow1 {
+	right: 0px;
+}
+
+#arro2 {
+	left: 0px;
+}
+
